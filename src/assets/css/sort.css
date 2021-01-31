@@ -1,0 +1,79 @@
+.sort .sortInstructions{
+  text-align: center;
+  position: relative;
+  margin: 20px auto;
+}
+
+.sort .sortInstructions p{
+    line-height: 1.2;
+}
+
+.sort .sortContainer {
+  position: relative;   
+  display:block;
+  width: 80%;
+  /*min-height: 300px;
+  max-height: 550px;*/
+  height:auto;
+  margin:0 auto;
+  opacity: 0;
+  visibility: hidden;
+  cursor: move;
+}
+
+.sort .sortContainer .list-item {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 50px;
+  width: 100%;
+}
+
+.sort .sortContainer .item-content {
+  height: 100%;
+  border-radius: 10px;
+  color: #fff;
+  line-height: 50px;
+  padding-left: 0px;
+  font-size: 16px;
+  font-weight: 700;
+  background-color: #000;
+  border: 0px solid rgba(123, 123, 123, 0.498039);
+  box-shadow: rgba(0,0,0,0.2) 0px 1px 2px 0px;
+
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.sort .sortContainer .item-content .word{
+    width: 80%;
+}
+
+.sort .sortContainer .item-content .dots{
+    width: 10%;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.sort .sortContainer .item-content .dots .dotsInner{
+    width: 13px;
+    height: 22px;
+    position:relative;
+    background-image:url(../img/dots.png);
+    background-size:contain;
+}
+
+.sort .doneBtn {
+    display: block;
+    position: relative;
+    width: 260px;
+    margin: 40px auto;
+    cursor: pointer;
+}
+
+.sort .doneBtn img{
+    width:100%;
+}

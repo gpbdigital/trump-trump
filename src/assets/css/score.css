@@ -1,0 +1,156 @@
+.score{
+  display:flex;
+  flex-direction: column;
+}
+
+.score .level {
+    max-width: 720px;
+    margin: 0 auto;
+}
+
+.score .level h1{
+    position: relative; 
+    color: #F4B7AD;
+    font-weight: 700;
+    font-size: 14px;
+    letter-spacing: 5px;
+    text-transform: uppercase;
+    margin:20px 0 5px 0;
+}
+
+.score .level h1:after {
+    position: absolute;
+    content: '';
+    height: 3px;
+    bottom: -15px;
+    margin: 0 auto;
+    left: 0;
+    right: 0;
+    width: 25%;
+    border-radius: 12.5%;
+    background: #F4B7AD;
+}
+
+.score .user-score {
+    max-width: 720px;
+    margin: 0 auto;
+}
+
+.score .user-score p{
+    position: relative; 
+    color: #ffffff;
+    font-weight: 700;
+    font-size: 16px;
+    letter-spacing: 1px;
+    margin:20px 0 5px 0;
+    text-align: center;
+}
+
+.score .score-box{
+  width: 170px;
+  height: 168px;
+  position:relative;
+  display:flex;
+  background-image:url(../img/scorebox.svg);
+  background-size: contain;
+  margin:20px 0;
+  flex-direction: column;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+}
+
+.score .score-box .number{
+  font-size:48px;
+  font-weight:900;
+  color:#000;
+}
+
+.score .score-box .outof{
+  font-size:18px;
+  font-weight:700;
+  color:#EB3349;
+}
+
+.score .copy{
+    max-width: 500px;
+    margin: 10px auto 30px auto;
+    text-align: center;
+    font-size: 18px;
+}
+
+.score .douche{
+  position:relative;
+  display:block;
+  width: 100%;
+  max-width: 500px;
+  margin: 0 auto;
+  transform-origin:50% 50%;
+}
+
+.score .douche:hover{
+  transform:scaleX(-1);
+}
+
+.score .douche img {
+  position: relative;
+  width:380px;
+  max-width: 50%;
+  margin: 0 auto;
+  display: block;
+}
+
+.score .nextcopy{
+    color:#fff;
+    max-width: 500px;
+    margin: 30px auto;
+    text-align: center;
+    font-size: 20px;
+}
+
+.score .btn{
+    max-width: 320px;
+    margin: 20px auto;
+    cursor:pointer;
+}
+
+.score .tweetBtn{
+    max-width: 201px;
+    margin: 20px auto;
+}
+
+.score .btn img{
+    width:100%;
+}
+
+@media screen and (max-width: 50em) {
+  .score .score-box{
+    width: 150px;
+    height: 148px;
+  }
+
+  .score .copy {
+      font-size: 15px;
+      margin: 0px auto 20px auto;
+      padding: 0 20px;
+  }
+
+  .score .douche {
+      max-width: 250px;
+  }
+
+  .score .nextcopy{
+      font-size: 15px;
+      margin: 20px auto;
+  }
+
+  .score .btn {
+      margin: 0px auto;
+      max-width: 220px;
+  }
+
+  .score .tweetBtn {
+      max-width: 120px;
+      margin: 20px auto;
+  }
+}

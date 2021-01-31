@@ -1,0 +1,63 @@
+.start{
+  display:flex;
+  top:-2px;
+}
+
+.start .logo {
+    max-width: 720px;
+    margin: 0 auto;
+}
+
+.start .logo img {
+  position: relative;
+  width: 106%;
+  left: -3%;
+}
+
+.start .douche{
+  position:relative;
+  display:block;
+  top:-50px;
+  width: 100%;
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+.start .douche img {
+  position: relative;
+  width:380px;
+  max-width: 50%;
+  margin: 0 auto;
+  display: block;
+}
+
+.start .copy {
+  width: 360px;
+  color: #fff;
+  text-align: center;
+  margin: 0 auto;
+  position: relative;
+  top: -40px;
+}
+
+.start .copy h2{
+  font-weight:700;
+  font-size:24px;
+}
+
+.start .copy p{
+  font-weight:400;
+  font-size:16px;
+  line-height: 1.2;
+}
+
+.start .btn {
+  position:relative;
+  width: 260px;
+  margin:0 auto;
+  cursor:pointer;
+}
+
+.start .btn img{
+  width: 100%;
+}
