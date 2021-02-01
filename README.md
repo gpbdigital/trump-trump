@@ -1,5 +1,5 @@
 # top-trump
-http://trumptrump.ie/
+https://trumptrump.ie/
 
 ## Project setup
 ```
